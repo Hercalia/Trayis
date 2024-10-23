@@ -181,7 +181,7 @@ piecePositionScores = {
     "wK": whitekingScores,
     "bK": blackkingScores
 }
-#elo 1600
+#elo 1400
 def findRandomMoves(validMoves):
     return validMoves[np.random.choice(len(validMoves))]
 # Sample dictionary of openings (you can expand this with more openings)
